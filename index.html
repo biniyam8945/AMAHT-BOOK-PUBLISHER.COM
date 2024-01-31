@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>AMAHT - Book Publisher</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>AMAHT - Book Publisher</h1>
+    <nav>
+      <ul>
+        <li><a href="#books">Books</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#blog">Blog</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="books">
+      <h2>Our Books</h2>
+      <!-- Add book content here -->
+    </section>
+
+    <section id="about">
+      <h2>About Us</h2>
+      <a href="about.html" target="_blank">About</a>
+      <!-- Add about us content here -->
+    </section>
+
+    <section id="blog">
+      <h2>Blog</h2>
+      <!-- Add blog content here -->
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
+<section id="books">
+  <h2>Our Books</h2>
+  <div class="book">
+    <img src="https://drive.google.com/file/d/1JA_bp7oxfNCI47c-rgEs9x12O13PVNSh/view?usp=sharing /cover page.PNG"target="_blank">
+    <h3>Instrumental analysis II Laboratory Manual</h3>
+    <p>Author: Binyam Abdu</p>
+     <a href="https://drive.google.com/file/d/1-GTsIF5n1QtPAzv36298tTdLK2Z57ZRB/view?usp=sharing" target="_blank">Download Book</a>
+    <p>Description: The manual begins with a thorough introduction to laboratory safety rules and guidelines. It emphasizes the importance of proper safety practices, including personal protective equipment (PPE), handling hazardous materials, and emergency protocols. The safety section aims to create a culture of safety consciousness and ensure the well-being of laboratory personnel..</p>
+    
+  </div>
+
+  <div class="book">
+  </div>
+
+  <!-- Add more book entries as needed -->
+</section>
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .book {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .book img {
+      width: 200px;
+      height: 300px;
+      object-fit: cover;
+      margin-bottom: 10px;
+      border: 2px solid #333;
+    }
+
+    .book h3 {
+      font-size: 18px;
+      margin-bottom: 5px;
+    }
+
+    .book p {
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+
+    .book a {
+      background-color: #333;
+      color: #fff;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    .book a:hover {
+      background-color: #555;
+    }
+
+    .description {
+      display: none;
+      font-size: 14px;
+    }
+  </style>
+  <script>
+    function toggleDescription(bookId) {
+      var description = document.getElementById(bookId + "-description");
+      description.style.display = description.style.display === "none" ? "block" : "none";
+    }
+  </script>
+</head>
+<body>
+ 
+
+    <!-- Add more book entries as needed -->
+  </section>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Webpage</title>
+</head>
+<body>
+ <footer>
+    &copy; 2024 AMAHT - Book Publisher. All rights reserved.
+  </footer>
+  
